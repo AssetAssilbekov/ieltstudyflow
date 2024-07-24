@@ -40,7 +40,7 @@ document.getElementById('submit').addEventListener('click', () => {
         sendError('no name')
         return;
     }
-    if (submitNumber.length < 11) {
+    if (submitNumber.length !== 10) {
         sendError('no phone number')
         return;
     }
