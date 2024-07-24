@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -42,6 +46,22 @@ background: linear-gradient(142deg, rgba(13,17,20,1) 38%, rgba(27,34,40,1) 100%)
     letter-spacing: 2px;
     cursor: pointer;
     text-transform: uppercase;
+  }
+
+  .page1 a {
+    padding: 24px 32px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 20pt;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Berat Neue", sans-serif;
   }
   .text {
     display: inline-block;
