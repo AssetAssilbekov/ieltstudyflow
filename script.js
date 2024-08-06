@@ -76,7 +76,7 @@ document.querySelector('#submitname').addEventListener('change', () => {
     } 
 
     submitable = true;
-    document.querySelector('#submit').innerHTML = 'Записать';
+    document.querySelector('#submit').innerHTML = 'Записаться';
 });
 
 document.querySelector('#telephone').addEventListener('change', () => {
@@ -87,5 +87,5 @@ document.querySelector('#telephone').addEventListener('change', () => {
     } 
 
     submitable = true;
-    document.querySelector('#submit').innerHTML = 'Записать';
+    document.querySelector('#submit').innerHTML = 'Записаться';
 });
