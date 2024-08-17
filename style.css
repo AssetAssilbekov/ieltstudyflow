@@ -107,13 +107,13 @@ background: linear-gradient(142deg, rgba(13,17,20,1) 38%, rgba(27,34,40,1) 100%)
 
   }
   form h1 {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", serif;
     font-size: 40pt;
     letter-spacing: 10px;
     word-spacing: 30px;
   }
   form h2 {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", serif;
     font-size: 30pt;
     font-weight: bold;
   }
