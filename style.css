@@ -61,7 +61,7 @@ background: linear-gradient(142deg, rgba(13,17,20,1) 38%, rgba(27,34,40,1) 100%)
     letter-spacing: 2px;
     cursor: pointer;
     text-transform: uppercase;
-    font-family: "Berat Neue", sans-serif;
+    font-family: "Berat Neue", serif;
   }
   .text {
     display: inline-block;
