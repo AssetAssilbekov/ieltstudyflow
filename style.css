@@ -88,7 +88,7 @@ background: linear-gradient(142deg, rgba(13,17,20,1) 38%, rgba(27,34,40,1) 100%)
   }
 
   .page3 {
-    width: 70vw;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
