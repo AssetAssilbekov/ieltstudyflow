@@ -1,1 +1,36 @@
+<html>
 
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<div class="page3" id="page3">
+  <form>
+
+     
+      <input class="forminputs" type="text" placeholder="Ваше Имя" style="margin-top: 60px;width: 80%;margin-bottom: 30px;" id="submitname">
+      <div style="width: 80%;display: flex;justify-content: space-between;align-items: center;"><span style="width: 10%;font-size: 25pt;font-weight: bold;font-family: monospace;">+7</span><input class="forminputs" type="number" placeholder="(___)___-__-__" id="telephone" style="width: 90%;"></div>
+      <p id="error">&nbsp;</p>
+      <button class="submit" type="button" style="margin: 0px 0px 30px 0px;background-color: rgba(255, 255, 255, 0.8);width: 60%;" id="submit">Записаться</button>
+  </form>
+</div>
+<div style="height: 100vh;"></div>
+
+<script src="script.js"></script>  
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "1PEsx2Xo9hEnWWeYh",
+      });
+   })();
+</script>
+
+
+
+
+</html>
